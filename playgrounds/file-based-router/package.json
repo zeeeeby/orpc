@@ -1,0 +1,26 @@
+{
+  "name": "@orpc/contract-first-playground",
+  "type": "module",
+  "version": "1.0.0-beta.4",
+  "private": true,
+  "scripts": {
+    "dev": "tsx --watch src/main.ts",
+    "start": "tsx src/main.ts",
+    "type:check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@orpc/client": "next",
+    "@orpc/contract": "next",
+    "@orpc/openapi": "next",
+    "@orpc/react-query": "next",
+    "@orpc/server": "next",
+    "@orpc/zod": "next",
+    "@tanstack/react-query": "^5.66.4",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.1",
+    "tsx": "^4.19.2",
+    "typescript": "5.7.3"
+  }
+}
